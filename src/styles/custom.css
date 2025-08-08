@@ -1,0 +1,19 @@
+/* src/styles/custom.css */
+
+.button-animated {
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  font-family: 'Montserrat', sans-serif;
+  background: #D6336C;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(214, 51, 108, 0.5);
+}
+
+.button-animated:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 25px rgba(214, 51, 108, 0.75);
+}

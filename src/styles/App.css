@@ -1,0 +1,50 @@
+/* Reset and base styles */
+* {
+  box-sizing: border-box;
+}
+
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  background-color: #1E1E2F; /* deep charcoal background */
+  font-family: 'Montserrat', sans-serif;
+  color: #E0E6F1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* App container */
+.app {
+  background: #2A2A3D; /* slightly lighter dark */
+  padding: 40px 50px;
+  border-radius: 20px;
+  width: 420px;
+  box-shadow:
+    0 8px 20px rgba(0,0,0,0.8),
+    inset 0 0 40px #0D6EFD33; /* subtle electric blue glow */
+  user-select: none;
+}
+
+/* Header */
+.app-title {
+  font-family: 'Russo One', sans-serif;
+  font-size: 3.2rem;
+  color: #0D6EFD; /* electric blue */
+  text-align: center;
+  margin-bottom: 6px;
+  letter-spacing: 3px;
+  text-shadow: 0 0 12px #0D6EFD99;
+}
+
+/* Tagline */
+.tagline {
+  font-style: italic;
+  font-weight: 600;
+  text-align: center;
+  color: #B0B9CC;
+  margin-bottom: 36px;
+}

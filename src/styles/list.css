@@ -1,0 +1,61 @@
+.internship-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+}
+
+.internship-item {
+  background-color: #292323;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.internship-item:hover {
+  transform: scale(1.02);
+}
+
+.internship-details {
+  flex-grow: 1;
+}
+
+.internship-details h3 {
+  margin: 0 0 5px 0;
+  font-size: 18px;
+}
+
+.internship-details p {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  color: #444;
+}
+
+.internship-details a {
+  color: #1d4ed8;
+  text-decoration: none;
+}
+
+.button-group {
+  display: flex;
+  gap: 12px; /* This adds spacing between buttons */
+}
+
+.delete-btn {
+  background-color: #aa1e1e;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #540505;
+}

@@ -1,0 +1,64 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.form input[type="text"],
+.form input[type="url"],
+.form select {
+  background: #222238;
+  border: none;
+  border-radius: 16px;
+  padding: 14px 18px;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 16px;
+  color: #E0E6F1;
+  box-shadow:
+    inset 3px 3px 6px #1A1A2B,
+    inset -3px -3px 6px #2E2E44;
+  transition: box-shadow 0.3s ease;
+  font-weight: 400;
+}
+
+.form input::placeholder {
+  color: #b7b5b5;  /* Changed placeholder color to white */
+  font-weight: 40;
+  font-style: italic;
+}
+
+.form input:focus,
+.form select:focus {
+  outline: none;
+  box-shadow:
+    0 0 8px 2px #0D6EFD,
+    inset 3px 3px 6px #1A1A2B,
+    inset -3px -3px 6px #2E2E44;
+}
+
+.form button {
+  background-color: #06419a; /* electric blue */
+  color: #FFFFFF;
+  border: none;
+  border-radius: 18px;
+  padding: 14px 0;
+  font-size: 1rem;
+  font-weight: 700;
+
+
+  cursor: pointer;
+  box-shadow:
+    0 19px 19px rgba(1, 14, 24, 0.7);
+  transition: backgroundcolor 0.3s ease, transform 0.2s ease;
+  width: 40%; /* smaller than inputs */
+  align-self: flex-start; /* align button to left */
+}
+
+.form button:hover {
+  background-color: #03274d;
+  transform: scale(1.05);
+}
+
+.form button:active {
+  transform: scale(0.95);
+}
