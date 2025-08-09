@@ -1,12 +1,31 @@
-# React + Vite
+# Intern Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight dashboard for companies to collect, review, and manage intern applications — no backend, no login, just works.
 
-Currently, two official plugins are available:
+## Key Features
+- **Custom Application Form**: Applicants submit their details, skills, CV, and availability
+- **Applicant Dashboard**: View all applicants in one organized place
+- **Status Tracking**: Tag applicants as "Applied", "Good fit", "Needs follow-up", "Test sent", or "Hired"
+- **Notes System**: Add internal notes per applicant for better communication
+- **Data Persistence**: All data saved in browser (localStorage) — no setup needed
+- **Responsive Design**: Clean layout that works on mobile, tablet, and desktop
+- **Easy to Use**: No authentication or database — perfect for small teams and startups
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Technologies Used
+- **React.js** - Component-based UI architecture
+- **Vite** - Fast development build tool
+- **React Router** - Client-side navigation
+- **Formik + Yup** - Form handling and validation
+- **CSS** - Clean, animated styling (no framework)
+- **Local Storage API** - Persistent data without a backend
+- **JavaScript (ES6+)** - Modern syntax and logic
 
-## Expanding the ESLint configuration
+## Live Demo
+[https://sifenabduselam.github.io/intern-tracker/](https://sifenabduselam.github.io/intern-tracker/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Installation
+```bash
+git clone https://github.com/sifenabduselam/intern-tracker.git
+cd intern-tracker
+npm install
+npm run dev
