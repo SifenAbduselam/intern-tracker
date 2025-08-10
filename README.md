@@ -1,9 +1,5 @@
 # Intern Tracker
 A simple tool for small teams to track intern applications — lightweight, no backend, easy to use.
-[![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white)](https://reactjs.org)
-[![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)](https://vitejs.dev)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?logo=github)](https://pages.github.com)
 
 
 
@@ -21,8 +17,8 @@ A simple tool for small teams to track intern applications — lightweight, no b
  - Fast build tool
 - [![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3)](https://developer.mozilla.org/en-US/docs/Web/CSS)
  - Custom styling with animations
-- [![localStorage](https://img.shields.io/badge/localStorage-20232A?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)* - Browser-based data persistence
-- *[![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [![localStorage](https://img.shields.io/badge/localStorage-20232A?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) - Browser-based data persistence
+- [![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - Modern logic and event handling
 
 ##  Live Demo
