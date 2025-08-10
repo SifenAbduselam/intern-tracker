@@ -22,6 +22,12 @@ A simple tool for small teams to track intern applications — lightweight, no b
 ##  Live Demo
 [https://sifenabduselam.github.io/intern-tracker/](https://sifenabduselam.github.io/intern-tracker/)
 
+
+## Built by Sifen Abduselam
+🔗 [LinkedIn](https://www.linkedin.com/in/sifen-abduselam-a52798373/
+) | 🌐 [GitHub](https://github.com/sifenabduselam)
+
+
 ## Installation
 ```bash
 git clone https://github.com/sifenabduselam/intern-tracker.git
@@ -29,7 +35,5 @@ cd intern-tracker
 npm install
 npm run dev
 
-## Built by Sifen Abduselam
-🔗 [LinkedIn](https://www.linkedin.com/in/sifen-abduselam-a52798373/
-) | 🌐 [GitHub](https://github.com/sifenabduselam)
+
 
