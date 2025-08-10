@@ -15,6 +15,10 @@ A simple tool for small teams to track intern applications — lightweight, no b
 - **Local Storage API** - Browser-based data persistence
 - **JavaScript (ES6+)** - Modern logic and event handling
 
+- ## Screenshot
+- <img width="774" height="414" alt="image" src="https://github.com/user-attachments/assets/f04f1e3b-5abb-4b50-909e-96df8b4ea809" />
+
+
 ##  Live Demo
 [https://sifenabduselam.github.io/intern-tracker/](https://sifenabduselam.github.io/intern-tracker/)
 
